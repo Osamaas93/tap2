@@ -1,0 +1,160 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 80px 0 8%;
+    border: 2px solid;
+    border-color: #008AAA;
+    padding: 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+
+h1 {
+    font-size: 3rem;]
+    
+}
+
+footer {
+    text-align: center;
+    color: #3BBADB;
+}
+
+h3 {
+    color: #3BBADB;
+}
+
+.creative {
+    color: #D1884F;
+}
+
+.box {
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.logo-text {
+    display: flex;
+    align-items: right;
+    margin-right: 20px;
+}
+
+.logo-text img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.home {
+    color: #D1884F;
+}
+
+.home img {
+    background-color: #D1884F;
+}
+
+
+.card {
+    align-items: center;
+}
+
+.card img {
+    
+    float: right;
+    height: 300px;
+    margin-right: 10px; 
+    
+border-bottom-left-radius: 20%;
+border-top-left-radius: 20%;
+}
+
+.header {
+    color: #008AAA;
+   
+}
+.content {
+    
+    text-align: left;
+    margin-right: 50%; /* Adjust the space between the text and image (adjustable in pixels) */
+    
+}
+
+.hire {
+    background-color: #008AAA;
+    border-radius: 7px;
+    border-color: #008AAA;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .see {
+    background-color:white;
+    border: 2px solid;
+    border-color: #008AAA;
+    border-radius: 7px;
+    color: #3BBADB;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  a {
+    color: inherit;       
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700; 
+}
+
+@media (max-width: 940px) {
+    .logo {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .header{
+         font-size: 1.5rem;
+    }
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .card img {
+        float: right;
+        margin-right: 10px;
+        border-bottom-left-radius: 20%;
+        border-top-left-radius: 20%;
+        max-width: 95%; /* Make the image responsive by setting a maximum width */
+        height: auto; /* Maintain the aspect ratio while resizing */
+    }
+
+    body{
+        flex-direction: row;
+    }
+    .flex-container{
+        display: block;
+    }
+    .content p{
+        text-align: center;
+    }
+}
