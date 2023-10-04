@@ -30,9 +30,10 @@ h3 {
 }
 
 .box {
-
-    margin-left: 50px;
-    margin-right: 50px;
+    flex-direction: column;
+    display: flex;
+   
+  
 }
 
 .flex-container {
@@ -71,9 +72,9 @@ h3 {
     float: right;
     height: 300px;
     margin-right: 10px; 
-    
-border-bottom-left-radius: 20%;
-border-top-left-radius: 20%;
+    margin-top: 40px; 
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
 }
 
 .header {
@@ -83,7 +84,7 @@ border-top-left-radius: 20%;
 .content {
     
     text-align: left;
-    margin-right: 50%; /* Adjust the space between the text and image (adjustable in pixels) */
+    margin-right: 50%; 
     
 }
 
@@ -133,28 +134,41 @@ border-top-left-radius: 20%;
          font-size: 1.5rem;
     }
     .card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /*  */
         width: 100%;
-        display: block;
-        margin-bottom: 30px;
-        text-align: justify;
+        /* display: block; */
+        /* margin-bottom: 30px; */
+        /* text-align: justify; */
     }
 
     .card img {
-        float: right;
-        margin-right: 10px;
-        border-bottom-left-radius: 20%;
-        border-top-left-radius: 20%;
-        max-width: 95%; /* Make the image responsive by setting a maximum width */
-        height: auto; /* Maintain the aspect ratio while resizing */
+        float: none;
+        /* margin-right: 10px; */
+        /* border-bottom-left-radius: 20%; */
+        /* border-top-left-radius: 20%; */
+        max-width: 40%;
+        height: auto;
     }
 
-    body{
-        flex-direction: row;
-    }
+   .box{
+    align-items: center;
+   }
     .flex-container{
         display: block;
+     
     }
     .content p{
         text-align: center;
     }
+    .content {
+        margin-right:0; 
+        
+    }
+    h3{
+        text-align: center;
+    }
+  
 }
